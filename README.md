@@ -18,3 +18,7 @@
 ## Technologies
 
 React, React-Native, NodeJS, react-query, prettier, eslint
+
+## Note
+
+State management was realized through react-query but if needed it can be re-implemented by me on either Redux or RTK Query
