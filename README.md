@@ -1,6 +1,14 @@
 # WeatherApp
 
 <img width="414" alt="image" src="https://github.com/Metprox/WeatherApp/assets/25321809/8f67eb31-8526-40e2-bd6d-debdd5705eac">
+<img width="426" alt="Screenshot at Jul 12 14-22-29" src="https://github.com/Metprox/WeatherApp/assets/25321809/d8dcfb93-462a-4ba0-a0b8-682822a5dfda">
+<img width="428" alt="Screenshot at Jul 12 14-22-36" src="https://github.com/Metprox/WeatherApp/assets/25321809/1da72097-797f-4f9a-bf85-87db604bebf4">
+<img width="418" alt="Screenshot at Jul 12 14-22-47" src="https://github.com/Metprox/WeatherApp/assets/25321809/6321521a-b1c5-4253-b8f0-787a007ff4f7">
+<img width="419" alt="Screenshot at Jul 12 14-23-01" src="https://github.com/Metprox/WeatherApp/assets/25321809/1a495f39-6c80-4691-ac8c-ca8c6d6d3f5a">
+<img width="408" alt="Screenshot at Jul 12 14-23-30" src="https://github.com/Metprox/WeatherApp/assets/25321809/e6578ddf-f833-4402-a928-972c0d0d84a3">
+
+
+
 
 
 ## Start Application
