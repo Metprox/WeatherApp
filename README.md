@@ -1,5 +1,8 @@
 # WeatherApp
 
+<img width="414" alt="image" src="https://github.com/Metprox/WeatherApp/assets/25321809/8f67eb31-8526-40e2-bd6d-debdd5705eac">
+
+
 ## Start Application
 
 1. yarn install
