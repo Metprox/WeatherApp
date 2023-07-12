@@ -43,11 +43,11 @@ export const Dashboard = (props: any) => {
     );
   }
 
-  if (!data?.current || isError) {
+  const activeCity = currentCity ? currentCity : data;
+
+  if (!activeCity || isError) {
     return <SomethingWentWrong />;
   }
-
-  const activeCity = currentCity ? currentCity : data;
 
   return (
     <ImageBackground
