@@ -8,6 +8,7 @@ import { Payload, useQueryForecast } from 'src/api/useQueryForecast';
 import { WeatherDetails } from 'src/components/WeatherDetails';
 import { WeatherTitle } from 'src/components/WeatherTitle';
 import { getWeather } from 'src/helpers/getWeather';
+import { Loader } from 'src/components/Loader';
 import { DIMENSIONS } from 'src/theme';
 
 import { styles } from './styles';
@@ -30,12 +31,16 @@ export const Dashboard = (props: any) => {
   }, [props.route.params]);
 
   if (isLoading) {
-    <ImageBackground
-      style={styles.container}
-      resizeMode="cover"
-      blurRadius={60}
-      source={require('assets/images/bg.png')}
-    />;
+    return (
+      <ImageBackground
+        style={styles.container}
+        resizeMode="cover"
+        blurRadius={60}
+        source={require('assets/images/bg.png')}
+      >
+        <Loader />
+      </ImageBackground>
+    );
   }
 
   if (!data?.current || isError) {
